@@ -11,7 +11,7 @@ urlFragment: azure-devops-orchestration-with-logic-apps
 
 # Using Azure Logic Apps for Azure DevOps Pipeline Orchestration
 
-This sample provides an Azure Resource Manager template for a Azure Logic app that can be used to orchestrate the execution of many Azure DevOps Pipelines. The Logic App is an HTTP triggered logic app that accepts a POST method. The payload has two arrays defined. The first array is the information for the pipelines that will need to be executed synchronously. The second is the information on the pipelines that, once the synchronous pipelines are completed, can be executed asynchronously.
+This sample provides an Azure Resource Manager template for a Azure Logic App that can be used to orchestrate the execution of many Azure DevOps Pipelines. The Logic App is an HTTP triggered logic app that accepts a POST method. The payload has two arrays defined. The first array is the information for the pipelines that will need to be executed synchronously. The second is the information on the pipelines that, once the synchronous pipelines are completed, can be executed asynchronously.
 
 Demo video of this Azure Logic App:
 
